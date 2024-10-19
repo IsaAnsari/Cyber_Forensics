@@ -1,0 +1,21 @@
+1) Open Process
+
+Step 1 :- Download and extract sysinternalsuite.
+
+Step 2 :- In sysinternalsuite folder search for Procmon64 and open it by clicking on run as administrator.
+
+Step 3 :- Process Monitor dashboard is open now analyse which was is running in your device.
+
+
+2) Network Connections
+
+Step 1 :- In sysinternalsuite folder search for TcpView64 and open it by clicking on run as administrator.
+
+Step 2 :- TCP view dashboard is open now analyse the network connections in your device.
+
+
+3) Registry Editor
+
+Step 1:- In Start Menu, search for Registry Editor and open it by clicking on run as administrator.
+
+Step 2 :- Registry Editor dashboard is open now analyse the permission and configurations of your device.

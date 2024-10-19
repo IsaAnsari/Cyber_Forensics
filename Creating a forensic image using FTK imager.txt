@@ -1,0 +1,15 @@
+STEP 1: Open FTK Imager > File > Create Disk Image > select Contents of a Folder > Next
+
+STEP 2: Browse > E:\ > Finish
+
+STEP 3: Add > Fill information's > Next 
+
+STEP 4: Browse > D:\CF > Image filename > Finish
+
+STEP 5: Click checkboxes > Start
+
+STEP 6: File > Add Evidence Item > select Image File > Next
+
+STEP 7: In Select File tab, select the .ad1 file that you created earlier, then click open and click on Finish.
+
+STEP 8: In left pane, Evidence Tree is present from which you can access all the files and content of the files.
