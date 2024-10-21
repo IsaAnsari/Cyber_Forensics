@@ -1,0 +1,26 @@
+AIM :- Web Browser Forensics
+ Analyse browser artifacts, including history files, bookmarks, and download records.
+ Analyse cache and cookies data to reconstruct user-browsing history and identify visited
+websites or online activities.
+ Extract the relevant log or timestamp file, analyse its contents and interpret the timestamp
+data to determine the user's last internet activity and associated details.
+
+-----------------------------------------------------------------------------------------------
+
+Step 1 :- Download and Install browser history examiner.
+
+Step 2 :- Open browser history examiner and run as administrator..
+
+Step 3 :- Click on continue trial button and then click on ok.
+
+Step 4 :- Browser history examiner has opened.
+
+Step 5 :- Go to file menu, and click on capture history.
+
+Step 6 :- In capture history tab, select capture history from this computer and click on next.
+
+Step 7 :- Select destination folder, to save the records and then click on capture.
+
+Step 8 :- After process, in permission dialog click on yes.
+
+Step 9 :- Check the browser history from left panel.
