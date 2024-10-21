@@ -1,0 +1,29 @@
+AIM :- Steganography Detection.
+ Detect hidden information or files within digital images using steganography analysis
+tools.
+ Extract and examine the hidden content. 
+
+-----------------------------------------------------------------------------------
+
+Step 1 :- Download and install SteganPEG.
+
+Step 2 :- Open SteganPEG and run as administrator.
+
+Step 3 :- In choose action to perform field, select ‘embed files into jpeg image’, in enter a
+password field, type a password of your choice to encrypt image, in enter path to an image
+file filed browse the image location you want to encrypt.
+
+Step 4 :- Click on add files button, select text file to merge.
+
+Step 5 :- Click on save stegged image button, to download the encrypted image, provide the
+filename and destination to save the stegged image.
+
+Step 6 :- Reopen the steganpeg, now in choose action to perform field select ‘read files from
+a jpeg image’, in enter a pasword filed type the password you entered during encryption, in
+enter path to image file field, select the path of stegged image.
+
+Step 7 :- Select the text file to read and click on save selected.
+
+Step 8 :- Browse the location to save the text file and click on ok.
+
+Step 9 :- Open downloaded file to read the content.
