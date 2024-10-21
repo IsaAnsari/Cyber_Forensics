@@ -1,0 +1,33 @@
+AIM : Using sysinternals tools for network tracking and process monitoring :
+ Check Sysinternals tools
+ Monitor Live Processes
+ Capture RAM
+ Capture TCP/UDP packets
+ Monitor Hard Disk
+ Monitor Virtual Memory
+ Monitor Cache Memory
+
+-----------------------------------------------------------------------------------
+
+1) Check sysinternal tools
+ - Download sysinternal tools zip file.
+ - Extract all the files from zip.
+ - Analyse different sysinternal tools.
+
+2) Monitor Live Processes
+ - Open Procmon64 and run as administrator.
+
+3) Capture RAM
+ - Open RamMap and run as administrator.
+
+4) Capture TCP/UDP packet
+ - Open TcpView and run as administrator.
+
+5) Monitor Hard Disk
+ - Open Diskmon and run as administrator.
+
+6) Monitor Virtual Memory
+ - Open VmMap and run as administrator.
+
+7) Monitor Cache Memory
+ - Open CacheSet and run as administrator.
