@@ -1,0 +1,75 @@
+1) Identification the live network
+
+Step 1 :- Download and install Wireshark.
+Step 2 :- Open the Wireshark by clicking on run as administrator.
+Step 3 :- Analyse the live network of your device.
+
+----------------------------------------------------------------------
+
+2) Capture packet
+
+I. Analyse different colour packets
+ - Analyse the packets based on colour
+ - Go to view menu and then click on view colour rules.
+
+II. Apply a display filter
+ - In filter bar type 'ip.addr == 192.168.177.11'.
+
+III. Packet from specific source
+ - In filter bar type 'ip.src == 138.199.14.92'.
+
+IV. Packet from specific destination
+ - In filter bar type 'ip.dst == 224.0.0.251'.
+
+V. Display packet using http protocol
+ - In filter bar type 'http'.
+
+VI. Display packet using http request
+ - In filter bar type 'http.request'.
+
+VII. Display packet using TCP protocol
+ - In filter bar type 'tcp'.
+
+VIII. Display packet having no error connection to server
+ - In filter bar type 'http.response.code == 200'.
+
+IX. Display packet having port no 80, 80
+ - In filter bar type 'tcp.port == 80 || udp.port == 80'.
+
+X. Display content using google
+ - In filter bar type 'tcp contains "google" '.
+
+-----------------------------------------------------------------------------------
+
+3) Analyse capture packets
+
+Step 1 :- Open the Wireshark by clicking on run as administrator.
+Step 2 :- Go to File menu and Open a file named 'Ask Snoopes' windows capture packet.
+Step 3 :- Analyse the packet by performing multiple task on it.
+
+I. What webserver issued by 'microsoft.com' ?
+ - In filter bar type 'http'.
+ - Select any http protocol packet.
+ - Expand Hypertext Transfer Protocol.
+ - Search for Host.
+ - Right click on Host and click Apply as Column.
+ - Select any packet, right click on it go to follow and click on TCP Stream.
+
+II. About what cell phone problem is client concerned ?
+ - In filter bar type 'frame matches "Microsoft" '.
+
+III. According to http what data will TCP show ?
+ - In filter bar type 'frame matches "http" '.
+ - Select any packet.
+ - Right click on transmission control protocol.
+ - In protocol preference click on check box of 'allow sub dissector to reassemble TCP stream'.
+
+IV. How many web server running Microsoft ?
+ - In filter bar type 'http.response' .
+ - Select any packet.
+ - Expand hypertext transmission protocol and search for server.
+ - Right click on server and click on apply as column.
+
+V. How to check how many Apache server are there ?
+ - In filter bar type 'http.server contains "Microsoft" '.
+ - Go to Statistics and click on Endpoints.
