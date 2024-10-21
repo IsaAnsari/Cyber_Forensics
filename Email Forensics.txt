@@ -1,0 +1,38 @@
+AIM :- Email Forensics
+ Analyse email headers and content to trace the origin of suspicious emails.
+ Identify potential email forgeries or tampering. 
+
+--------------------------------------------------------------------------------
+
+Step 1 :- Download and Install forensic toolkit.
+Step 2 :- Open forensic toolkit and run as administrator.
+Step 3 :- Select Start a new case and click on ok.
+Step 4 :- In new case tab, fill the fields investigator name, case number, base name, click on
+browse and select the destination to save the data of case and then click on next.
+
+Step 5 :- In FTK report wizard tab, fill all the necessary fields and click on next.
+Step 6 :- In case log options tab, select all the checkboxes and click on next.
+Step 7 :- In process to perform tab, select all the checkboxes and click on next.
+Step 8 :- In refine case default tab, check the necessary fields are selected or not and then
+click on next.
+
+Step 9 :- In refine index default tab, check the necessary fields are selected or not and then
+click on next.
+
+Step 10 :- Add evidence tab pop up and click on add evidence button.
+Step 11 :- In add evidence to case dialog select individual file and click on continue.
+Step 12 :- In evidence information dialog, select the file to examine and provide a evidence
+number and then click on ok.
+
+Step 13 :- The evidence is added in add evidence tab. Now, click on next.
+Step 14 :- In case summary tab, verify the fields and click on finish.
+Step 15 :- Forensic toolkit dashboard pop up.
+Step 16 :- Select the email tab in top menu bar and select the deleted items tab in left panel
+to check deleted emails.
+
+Step 17 :- Select any deleted email, right click on email and select launch detached viewer.
+Step 18 :- View the deleted email in detached viewer.
+Step 19 :- Select the inbox in left panel and check inbox emails.
+Step 20 :- Select any email, right click on email and click on export file.
+Step 21 :- Verify the fields in export files tab and click on ok.
+Step 22 :- Open the exported file.
