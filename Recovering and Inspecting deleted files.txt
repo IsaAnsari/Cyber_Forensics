@@ -1,0 +1,38 @@
+AIM : Recovering and Inspecting deleted files.
+ Check for deleted files.
+ Recover the deleted files.
+ Analysing and inspecting the recovered files.
+ Perform this using recovery option in encase and also perform manually through command line.
+
+--------------------------------------------------------------------------------------------------
+
+Step 1 :- Download and install autopsy software.
+
+Step 2 :- Open Autopsy and run as administrator.
+
+Step 3 :- Click on New Case.
+
+Step 4 :- In new case information tab, fill the case information. Type the current date in case
+name and in base directory select the file in which you want to store data and then click on next.
+
+Step 5 :- Fill the optional information fields type case number, examiner name, phone,
+email, notes and then click on finish.
+
+Step 6 :- In add data source tab, in step 1 select logical files and then click next.
+
+Step 7 :- In step 2, click on add button and select file want to examine and then click on next.
+
+Step 8 :- In step 3, configure ingest module select all the checkboxes and click on next.
+
+Step 9 :- In final step, data source has been added to database message pop up and then click on finish.
+
+Step 10 :- In dashboard, in left panel from data sources select the available files from that source.
+
+Step 11 :- In dashboard, in left panel from views select the deleted files tab and examine the
+deleted files from that source.
+
+Step 12 :- Go to generate report menu, select report type and click on next.
+
+Step 13 :- Select the all results checkbox and then click on finish.
+
+Step 14 :- After the report generation is completed you can see the result in given folder.
